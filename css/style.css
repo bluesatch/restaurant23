@@ -1,0 +1,88 @@
+/* 
+    red #df473a
+    yellow #fff8ce
+    bg1 #f5eedc
+    bg2 #f9f5ea
+    gray1 #66635e
+    gray2 #5c5954
+    gray3 #413e39
+    green #999e03
+    textColor #762931
+
+    for grad #f86659
+
+    font1 'PT Sans', sans-serif
+    font2 'Open Sans', sans-serif
+
+    client1 'Caveat', cursive
+    client2 'Courier Prime', monospace 
+    client3 'Oooh Baby', cursive 
+    client4 'Qwitcher Grypen', cursive
+ */
+
+:root {
+    --red: #df473a;
+    --yellow: #fff8ce;
+    --bg1: #f5eedc;
+    --bg2: #f9f5ea;
+    --gray1: #66635e;
+    --gray2: #5c5954;
+    --gray3: #413e39;
+    --green: #999e03;
+    --textColor: #762931;
+    --font1: 'PT Sans', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --client1: 'Caveat', cursive;
+    --client2: 'Courier Prime', monospace;
+    --client3: 'Oooh Baby', cursive;
+    --client4: 'Qwitcher Grypen', cursive;
+    --grad: linear-gradient(#f86659, var(--red));
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+#headerSection1 {
+    padding: 8px 0;
+    background-color: var(--red);
+}
+
+.social-link {
+    color: var(--yellow);
+}
+
+#headerSection2 {
+    padding: 10px 0;
+    background-color: var(--red);
+    background-image: var(--grad);
+}
+
+.logo {
+    font-family: var(--font1);
+    font-size: calc(42px + (56 - 42) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+}
+
+.dropdown-btn {
+    background-color: var(--yellow);
+}
+
+.drop-menu {
+    background-color: var(--yellow);
+}
+
+.drop-item a {
+    text-transform: capitalize;
+}
+
+.main-nav-item {
+    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
