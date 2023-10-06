@@ -109,9 +109,158 @@
                 </div>
             </div>
         </section>
-        <section class="section" id="headerSection3"></section>
+        <section class="section" id="headerSection3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="slogan fst-italic text-center text-md-start">Top quality ingredients only in our kitchen!</p>
+                    </div>
+                    <div class="col-md-6 col-lg-9">
+                        <form action="#" class="form search-form">
+                            <div class="input-group search-group">
+                                <input type="search" class="form-control" aria-label="search" aria-describedby="searchBtn">
+                                <button class="btn search-btn" type="button" id="searchBtn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                    </svg>
+                                    <span class="visually-hidden">search</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <main class="main" id="main"></main>
+    <main class="main" id="main">
+        <section class="section" id="carouselSection">
+            <div class="tint"></div>
+            <div class="container caro-container">
+                <div class="carousel slide" id="myCarousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/foodpic8.jpg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foodpic9.jpg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foodpic10.jpeg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foodpic4.jpg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foodpic7.jpg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foodpic6.jpg" alt="food pic" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption caption-div d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="cardSection">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/250x175" alt="placeholder img" class="img-fluid image card-img-top" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer" id="footer"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

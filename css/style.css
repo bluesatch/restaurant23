@@ -60,12 +60,13 @@ body {
 }
 
 #headerSection2 {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: var(--red);
     background-image: var(--grad);
 }
 
 .logo {
+    margin: 0;
     font-family: var(--font1);
     font-size: calc(42px + (56 - 42) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 700;
@@ -84,5 +85,101 @@ body {
 }
 
 .main-nav-item {
-    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
 }
+
+.main-nav-link {
+    color: var(--yellow);
+}
+
+.main-nav-link:hover {
+    padding: 8px 16px;
+    color: #000;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
+#headerSection3 {
+    padding: 20px 0;
+    background-color: var(--yellow);
+}
+
+.slogan {
+    margin: 0;
+    color: var(--textColor);
+    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 200;
+    
+}
+
+input[type="search"] {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.search-group {
+    border: 1px solid var(--textColor);
+}
+
+.search-btn {
+    color: var(--textColor);
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        margin-left: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-form {
+        width: 30%;
+    }
+}
+
+#carouselSection {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    height: 45vh;
+    background-color: #000;
+    background-image: url('../images/foodpic9.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tint {
+    width: 100%;
+    height: 800px;
+    height: 45vh;
+    background-color: #000;
+    opacity: 0.55;
+}
+
+.caro-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-img {
+    height: 45vh;
+}
+
+.caption-div {
+    transform: translateY(-75%);
+}
+
+.carousel-heading {
+    font-size: calc(32px + (84 - 32) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#cardSection {
+    padding: 40px 0;
+    background-color: var(--bg1);
+}   
