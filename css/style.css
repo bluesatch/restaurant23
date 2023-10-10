@@ -182,7 +182,23 @@ input[type="search"] {
 #cardSection {
     padding: 40px 0;
     background-color: var(--bg1);
-}   
+}  
+
+.my-card {
+    box-shadow: 0px 4px 2px #ddd;
+}
+
+.card-heading {
+    margin: 0;
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+}
+
+.card-text {
+    margin: 0;
+    color: var(--textColor);
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
 
 #offerSection {
     padding :40px 0;
@@ -261,4 +277,76 @@ input[type="search"] {
 
 #client5 {
     font-family: var(--client4);
+}
+
+#infoSection {
+    padding: 40px 0;
+    background-color: var(--gray2);
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ft-about-text, .blog-item, .address-item {
+    color: #aaa;
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.ft-link {
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.blog-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.blog-item:first-child {
+    padding-bottom: 15px; 
+    border-bottom: 1px solid #aaa;
+}
+
+.blog-item:last-child {
+    padding-top: 15px;
+}
+
+.address-item:last-child {
+    margin-top: 24px;
+}
+
+#colophonSection {
+    padding: 30px 0;
+    background-color: var(--gray3);
+}
+
+#colophonSection .logo {
+    margin: 0;
+}
+
+.colophon {
+    margin: 0;
+}
+
+/* about page */
+#aboutMain {
+    padding: 40px 0;
+    background-color: var(--bg1);
+}
+
+.about-block {
+    padding: 40px 20px 80px;
+    background-color: #fff;
+    box-shadow: 0px 5px 2px #888;
+}
+
+.about-h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.about-text {
+    color: #888;
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
